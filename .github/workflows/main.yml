@@ -1,0 +1,2 @@
+- name: Linkedin-RSS
+  uses: Arisamiga/Linkedin-RSS@1.2.0
