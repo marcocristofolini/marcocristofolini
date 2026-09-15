@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0F172A,50:0E7490,100:2563EB&text=Marco%20Cristofolini&fontColor=ffffff&fontSize=44&fontAlignY=35&desc=Principal%20%2F%20Staff%20SRE%20%C2%B7%20Platform%20Engineering%20%C2%B7%20Cloud%20%26%20DevOps&descAlignY=55&descSize=18&animation=fadeIn" />
+<img width="100%" src="./assets/github-header.svg" alt="Marco Cristofolini — Principal / Staff SRE, Platform Engineering, Cloud & DevOps" />
 
 <div align="center">
 
@@ -391,4 +391,4 @@ Distributed Systems
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:0F172A,50:0E7490,100:2563EB" />
+<img width="100%" src="./assets/github-footer.svg" alt="Rodapé do perfil" />
