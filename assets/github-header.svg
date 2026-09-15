@@ -1,0 +1,38 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.5" stop-color="#0E7490"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(920 40) rotate(145) scale(560 280)">
+      <stop stop-color="#38BDF8" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="260" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="22" fill="url(#glow)"/>
+
+  <g opacity="0.12" stroke="#FFFFFF">
+    <path d="M0 205C135 145 250 245 390 183C525 123 650 225 800 160C955 92 1075 188 1200 128" stroke-width="2"/>
+    <path d="M0 224C145 172 275 257 420 204C560 153 670 239 830 180C980 125 1090 201 1200 156" stroke-width="1.5"/>
+  </g>
+
+  <g transform="translate(72 58)">
+    <circle cx="23" cy="22" r="7" fill="#22D3EE"/>
+    <circle cx="50" cy="22" r="7" fill="#60A5FA"/>
+    <circle cx="77" cy="22" r="7" fill="#A5B4FC"/>
+    <path d="M23 49H77" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <text x="72" y="142" fill="white" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="-1">Marco Cristofolini</text>
+  <text x="74" y="183" fill="#E2E8F0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="500">Principal / Staff SRE  ·  Platform Engineering  ·  Cloud &amp; DevOps</text>
+  <text x="74" y="216" fill="#BAE6FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="500">Reliability  ·  Kubernetes  ·  Observability  ·  Automation  ·  Developer Experience</text>
+
+  <g transform="translate(1015 75)" opacity="0.9">
+    <path d="M49 0L92 25V75L49 100L6 75V25L49 0Z" stroke="#FFFFFF" stroke-opacity="0.48" stroke-width="2"/>
+    <circle cx="49" cy="50" r="18" stroke="#FFFFFF" stroke-width="3"/>
+    <path d="M49 23V35M49 65V77M22 50H34M64 50H76M30 31L39 40M59 60L68 69M68 31L59 40M39 60L30 69" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
