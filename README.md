@@ -2,6 +2,8 @@
 
 **Principal / Staff Site Reliability Engineer · Platform Engineering · Kubernetes · Cloud · Observability**
 
+[Português](README_PT-BR.md)
+
 I build reliable platforms and production systems with a focus on **Kubernetes, cloud infrastructure, observability, developer experience and incident automation**.
 
 My engineering interests sit at the intersection of **SRE, Platform Engineering, Production Engineering and AI-assisted operations**.
@@ -58,14 +60,3 @@ I care about systems that are measurable, observable, resilient under partial fa
 I am especially interested in reducing incident investigation time by correlating **Kubernetes state, events, metrics, logs, traces and topology** into evidence-backed hypotheses rather than relying on opaque AI guesses.
 
 That work is represented in [kubernetes-rca-engine](https://github.com/marcocristofolini/kubernetes-rca-engine).
-
-## Selected experience themes
-
-- Internal Developer Platforms and developer self-service
-- Multi-cluster Kubernetes and cloud-native infrastructure
-- SLOs, error budgets and production readiness
-- End-to-end observability and incident response
-- Autoscaling with Karpenter, HPA and KEDA
-- Identity and platform security
-- Distributed systems and data reliability
-- Reducing operational toil through automation
