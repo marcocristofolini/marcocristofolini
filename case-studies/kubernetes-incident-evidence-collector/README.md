@@ -1,5 +1,7 @@
 # Case study: AI-assisted Kubernetes incident evidence collection
 
+[![Case study CI](https://github.com/marcocristofolini/marcocristofolini/actions/workflows/kubernetes-evidence-case.yml/badge.svg)](https://github.com/marcocristofolini/marcocristofolini/actions/workflows/kubernetes-evidence-case.yml)
+
 **Domain:** Site Reliability Engineering · Kubernetes · Incident Response · AI-assisted Development  
 **Date:** October 2026  
 **Status:** Reviewed prototype. Mock-based automated tests passed; live-cluster validation and impact measurement remain open.
