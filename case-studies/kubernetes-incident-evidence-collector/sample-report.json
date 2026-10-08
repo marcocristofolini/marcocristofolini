@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.1",
+  "collected_at": "2026-10-08T12:00:00Z",
+  "namespace": "production",
+  "context": "demo",
+  "since_minutes": 60,
+  "event_messages_included": false,
+  "collection_status": "complete",
+  "errors": [],
+  "events": [
+    {
+      "timestamp": "2026-10-08T11:55:00Z",
+      "timestamp_unknown": false,
+      "reason": "BackOff",
+      "message": null,
+      "resource": {
+        "kind": "Pod",
+        "name": "api-7c4f"
+      },
+      "count": 1
+    }
+  ],
+  "pods": [
+    {
+      "name": "api-7c4f",
+      "phase": "Running",
+      "containers": [
+        {
+          "name": "app",
+          "ready": false,
+          "restarts": 3,
+          "current_reason": "CrashLoopBackOff",
+          "last_termination_reason": null
+        }
+      ]
+    }
+  ],
+  "deployments": [
+    {
+      "name": "api",
+      "desired": 3,
+      "available": 1,
+      "ready": 1,
+      "updated": 3,
+      "generation": 12,
+      "observed_generation": 12,
+      "revision": "12",
+      "conditions": [
+        {
+          "type": "Available",
+          "status": "False",
+          "reason": "MinimumReplicasUnavailable",
+          "last_transition": "2026-10-08T11:54:00Z"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "kind": "container_issue",
+      "resource": "api-7c4f",
+      "detail": "app: CrashLoopBackOff"
+    },
+    {
+      "kind": "container_not_ready",
+      "resource": "api-7c4f",
+      "detail": "app: container is not ready"
+    },
+    {
+      "kind": "deployment_unavailable",
+      "resource": "api",
+      "detail": "available=1, ready=1, desired=3"
+    },
+    {
+      "kind": "pod_not_ready",
+      "resource": "api-7c4f",
+      "detail": "ContainersNotReady"
+    }
+  ],
+  "timeline": [
+    {
+      "timestamp": "2026-10-08T11:55:00Z",
+      "event": "BackOff",
+      "resource": {
+        "kind": "Pod",
+        "name": "api-7c4f"
+      }
+    }
+  ]
+}
