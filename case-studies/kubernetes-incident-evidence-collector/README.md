@@ -59,7 +59,7 @@ The reviewed version improved these areas and introduced:
 - Complete/partial/failed collection states so missing evidence is never silently treated as healthy.
 - Explicit handling for events with unknown timestamps.
 
-See the [code review](docs/day5-review.md), [original AI-generated code snapshot](baseline/collector_day4.py), and [reviewed implementation](collector.py).
+See the [code review](docs/day5-review.md), [experiment report](docs/experiment.md), and [reviewed implementation](collector.py). The unmodified initial source is retained in the original sprint archive, rather than published in this profile repository.
 
 ## Observed results
 
@@ -115,7 +115,6 @@ Record elapsed time, evidence completeness, false positives, RBAC/API compatibil
 
 - [Reviewed CLI](collector.py)
 - [Automated tests](tests/test_collector.py)
-- [Original implementation](baseline/collector_day4.py)
 - [Synthetic output](sample-report.json)
 - [Review decisions](docs/day5-review.md)
 - [Detailed experiment log](docs/experiment.md)
