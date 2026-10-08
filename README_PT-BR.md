@@ -11,7 +11,6 @@ Construo plataformas e sistemas de produção confiáveis, com foco em **Kuberne
 | Projeto | O que demonstra |
 |---|---|
 | [kubernetes-rca-engine](https://github.com/marcocristofolini/kubernetes-rca-engine) | Investigação de incidentes Kubernetes e RCA baseada em evidências |
-| [Coleta de evidências Kubernetes com IA](case-studies/kubernetes-incident-evidence-collector/README_PT-BR.md) | Case técnico: automação SRE, revisão humana do código gerado por IA e 19 testes simulados |
 | [production-readiness-framework](https://github.com/marcocristofolini/production-readiness-framework) | SLOs, modos de falha, overload e readiness de produção |
 | [platform-engineering-reference](https://github.com/marcocristofolini/platform-engineering-reference) | Platform Engineering, GitOps e self-service |
 | [observability-stack](https://github.com/marcocristofolini/observability-stack) | Métricas, logs e traces com OpenTelemetry |
