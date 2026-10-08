@@ -15,6 +15,7 @@ My engineering interests sit at the intersection of **SRE, Platform Engineering,
 | Project | What it demonstrates |
 |---|---|
 | [kubernetes-rca-engine](https://github.com/marcocristofolini/kubernetes-rca-engine) | Evidence-driven Kubernetes incident analysis and automated RCA |
+| [AI-assisted Kubernetes incident evidence collection](case-studies/kubernetes-incident-evidence-collector/README.md) | Technical case study: read-only incident collector, AI-generated code review, and 19 mocked tests |
 | [production-readiness-framework](https://github.com/marcocristofolini/production-readiness-framework) | SLOs, failure modes, overload protection and operational readiness |
 | [platform-engineering-reference](https://github.com/marcocristofolini/platform-engineering-reference) | Kubernetes platform architecture, GitOps and developer self-service |
 | [observability-stack](https://github.com/marcocristofolini/observability-stack) | OpenTelemetry-first metrics, logs and traces |
