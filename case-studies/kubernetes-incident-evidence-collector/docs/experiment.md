@@ -4,6 +4,8 @@
 **Project:** Kubernetes Incident Evidence Collector  
 **Status:** Initial generation and refinement completed; mocked tests passed; live-cluster validation pending.
 
+> **Public portfolio note:** This document records the original seven-day sprint. References to baseline/collector_day4.py describe the separately archived sprint artifact; the public case folder currently publishes the reviewed collector and expanded test suite.
+
 ## 1. SRE task and problem statement
 
 During Kubernetes incidents, SREs repeatedly run `kubectl` commands to investigate Warning events, unhealthy Pods, container restarts, and Deployment rollout status. Manually retrieving and consolidating these signals is repetitive and increases the risk of inconsistent evidence collection during high-pressure incident response.
