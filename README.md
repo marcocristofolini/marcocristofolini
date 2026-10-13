@@ -1,62 +1,72 @@
 # Marco Cristofolini
 
-**Principal / Staff Site Reliability Engineer · Platform Engineering · Kubernetes · Cloud · Observability**
+**Principal / Staff Site Reliability Engineer · Platform Engineer**  
+*Reliability engineering, cloud-native platforms and developer experience at scale.*
 
-[Português](README_PT-BR.md)
+[Website](https://marcocristofolini.dev) · [LinkedIn](https://www.linkedin.com/in/marcocristofolini/) · [Versão em português](README_PT-BR.md)
 
-I build reliable platforms and production systems with a focus on **Kubernetes, cloud infrastructure, observability, developer experience and incident automation**.
+I design, scale and operate **reliable distributed systems and internal developer platforms**. Across **13+ years** in SRE, DevOps and infrastructure engineering, I've worked with mission-critical 24×7 services, multi-cloud Kubernetes, infrastructure automation, observability and secure software delivery.
 
-My engineering interests sit at the intersection of **SRE, Platform Engineering, Production Engineering and AI-assisted operations**.
+My approach: **make reliability measurable, platforms self-service, and incident investigations evidence-driven.**
 
-[LinkedIn](https://www.linkedin.com/in/marcocristofolini/) · [GitHub](https://github.com/marcocristofolini)
+## Selected experience & impact
 
-## Engineering portfolio
+- **Ambev / AB InBev — Principal SRE / Platform Engineer (2020–2023):** Led work on a **Backstage-based Internal Developer Platform** with a catalog of **800+ services**, supporting **hundreds of engineering squads** across Latin America and Europe. Built reusable Golden Paths, templates and self-service workflows.
+- **Caju Benefícios — SRE Tech Lead / DevOps & Platform Engineer (2023–2026):** Advanced SLO-oriented operations, production readiness, multi-region AWS/EKS architectures, GitOps, observability, identity and security guardrails in a regulated fintech environment.
+- **Endurance International Group / HostGator — Senior DevOps & Infrastructure Engineer (2013–2020):** Helped modernize high-volume hosting infrastructure, including on-premises-to-AWS migration. Automated environment provisioning **from hours to minutes** and strengthened 24×7 operations.
 
-| Project | What it demonstrates |
-|---|---|
-| [kubernetes-rca-engine](https://github.com/marcocristofolini/kubernetes-rca-engine) | Evidence-driven Kubernetes incident analysis and automated RCA |
-| [production-readiness-framework](https://github.com/marcocristofolini/production-readiness-framework) | SLOs, failure modes, overload protection and operational readiness |
-| [platform-engineering-reference](https://github.com/marcocristofolini/platform-engineering-reference) | Kubernetes platform architecture, GitOps and developer self-service |
-| [observability-stack](https://github.com/marcocristofolini/observability-stack) | OpenTelemetry-first metrics, logs and traces |
-| [kubernetes-sre-playbook](https://github.com/marcocristofolini/kubernetes-sre-playbook) | Reproducible Kubernetes failures, signals and runbooks |
-| [terraform-cloud-platform](https://github.com/marcocristofolini/terraform-cloud-platform) | Production-oriented Terraform / OpenTofu patterns |
+These are professional experience highlights, not claims that the personal repositories below run in those employers' production environments.
 
-## Core areas
+## Selected engineering projects
 
-**Reliability Engineering**  
-SLIs · SLOs · Error Budgets · Incident Response · Production Readiness · Capacity Planning · Load Shedding · Graceful Degradation
+The projects below are **public reference implementations, labs or prototypes**. Each repository documents its own scope and validation status.
 
-**Platform Engineering**  
-Kubernetes · EKS · AKS · GKE · Backstage · GitOps · Argo CD · Flux · Helm · Karpenter · KEDA
+| Project | Focus and evidence |
+| --- | --- |
+| [Kubernetes Incident Evidence Collector](https://github.com/marcocristofolini/kubernetes-incident-evidence-collector) | Read-only **Python** CLI for Kubernetes incident evidence; reviewed prototype with mock-based tests. **Live-cluster validation is pending.** |
+| [Kubernetes RCA Engine](https://github.com/marcocristofolini/kubernetes-rca-engine) | **Go**-based, evidence-first deterministic incident analysis for OOMKilled, evictions and CrashLoopBackOff; early **v0.1** implementation. |
+| [Production Readiness Framework](https://github.com/marcocristofolini/production-readiness-framework) | Practical service reviews covering **SLOs, failure modes, overload protection, recovery and incident readiness**. |
+| [Platform Engineering Reference](https://github.com/marcocristofolini/platform-engineering-reference) | **Backstage, Kubernetes and Argo CD** architecture examples for GitOps and developer self-service. |
+| [Observability Stack](https://github.com/marcocristofolini/observability-stack) | Local **OpenTelemetry, Prometheus, Loki, Tempo and Grafana** reference stack. |
+| [Terraform Cloud Platform](https://github.com/marcocristofolini/terraform-cloud-platform) | Modular **Terraform / OpenTofu** infrastructure patterns, with a deliberately small AWS networking example. |
+| [Kubernetes SRE Playbook](https://github.com/marcocristofolini/kubernetes-sre-playbook) | Reproducible Kubernetes failure scenarios, investigation signals and troubleshooting runbooks. |
 
-**Cloud & Infrastructure**  
-AWS · Azure · Google Cloud · Terraform · Terragrunt · OpenTofu · Pulumi · Crossplane
+## Areas of expertise
 
-**Observability**  
-OpenTelemetry · Prometheus · Grafana · Thanos · Loki · Tempo · Datadog · New Relic · Zabbix
+| Discipline | Technologies and practices |
+| --- | --- |
+| **SRE & resilience** | SLIs / SLOs, error budgets, incident response, postmortems, production readiness, load shedding, graceful degradation, disaster recovery, capacity planning |
+| **Platform & cloud-native** | Kubernetes, EKS / AKS / GKE, Backstage, Helm, Karpenter, KEDA, internal developer platforms, Golden Paths |
+| **Cloud & infrastructure** | AWS, Google Cloud, Azure, Terraform, OpenTofu, Terragrunt, Pulumi (Go), Crossplane |
+| **Delivery & GitOps** | Argo CD, Flux, Argo Rollouts, GitHub Actions, CI/CD, canary and blue-green deployments |
+| **Observability** | OpenTelemetry, Prometheus, Grafana, Loki, Tempo, Datadog, New Relic, tracing, actionable alerting |
+| **Security & identity** | Keycloak, Vault, IAM, RBAC, OPA / Rego, Gatekeeper, Kyverno, DevSecOps guardrails |
+| **Engineering & operations** | Go, Python, Bash, TypeScript, Linux, Kafka, Redis, PostgreSQL, cost and capacity optimization |
 
-**Distributed Systems**  
-Kafka · RabbitMQ · NATS · Redis · PostgreSQL · MySQL
+## Certifications
 
-**Networking & Service Mesh**  
-Istio · Linkerd · Cilium · Calico · NGINX Ingress · Consul
+- **Certified Kubernetes Administrator (CKA)** — CNCF, 2023
+- **AWS Certified Solutions Architect – Associate** — AWS, 2023
+- **Istio Certified Associate (ICA)** — CNCF, 2022
+- **HashiCorp Certified: Terraform Associate** — HashiCorp, 2022
+- **Site Reliability Engineering Nanodegree** — Udacity, 2017
 
-## How I approach production systems
+*Credentials are listed as earned in my résumé; current expiration or renewal status is not asserted here.*
+
+## Engineering principles
 
 ```mermaid
 flowchart LR
-    D[Design] --> R[Production Readiness]
-    R --> O[Observable by Default]
-    O --> S[SLO-driven Operations]
-    S --> I[Incident Response]
-    I --> L[Learning & Automation]
-    L --> D
+    P[Platform and delivery] --> R[Production readiness]
+    R --> O[Observable by default]
+    O --> S[SLO-driven operations]
+    S --> I[Evidence-first investigation]
+    I --> L[Learning and automation]
+    L --> P
 ```
 
-I care about systems that are measurable, observable, resilient under partial failure, safe to operate and easy for developers to use.
+I favor **inspectable evidence over opaque conclusions**, safe operational defaults, incremental delivery and systems that engineers can confidently own.
 
-## Current focus
+**Languages:** Portuguese (native) · English (advanced professional) · Spanish (limited working proficiency)
 
-I am especially interested in reducing incident investigation time by correlating **Kubernetes state, events, metrics, logs, traces and topology** into evidence-backed hypotheses rather than relying on opaque AI guesses.
-
-That work is represented in [kubernetes-rca-engine](https://github.com/marcocristofolini/kubernetes-rca-engine).
+**Connect:** [LinkedIn](https://www.linkedin.com/in/marcocristofolini/) · [marcocristofolini.dev](https://marcocristofolini.dev)
