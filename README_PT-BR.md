@@ -1,82 +1,84 @@
 # Marco Cristofolini
 
-**Principal Site Reliability Engineer · Engenharia de Cloud e Plataformas**
+**Principal Site Reliability Engineer | Engenharia de Cloud e Plataformas**
 
-*Confiabilidade em produção · arquitetura multicloud · engenharia de plataformas · investigação de incidentes com evidências*
+Trabalho com sistemas e práticas de engenharia que tornam a produção mais fácil de operar: **serviços confiáveis, plataformas compartilhadas, entregas seguras e recuperação mais rápida de incidentes**.
 
-[Site](https://marcocristofolini.dev) · [LinkedIn](https://www.linkedin.com/in/marcocristofolini/) · [English version](README.md)
+[LinkedIn](https://www.linkedin.com/in/marcocristofolini/) · [Portfólio](https://marcocristofolini.dev) · [Projeto em destaque: AI SRE RCA](https://github.com/marcocristofolini/ai-sre-rca) · [English](README.md)
 
-Sou **Principal Site Reliability Engineer**, com **mais de 13 anos** projetando, escalando e operando sistemas distribuídos e plataformas em nuvem. Minha trajetória combina engenharia prática de produção, liderança técnica e arquitetura em AWS, Azure e Google Cloud — de infraestrutura de alto tráfego a fintech regulada e plataformas internas para desenvolvedores.
+Sou **Principal SRE e ex-SRE Tech Lead**, com **mais de 13 anos** em infraestrutura, sistemas distribuídos e engenharia de plataformas. Trabalho diretamente com AWS, Azure e GCP e também com direção técnica, padrões de engenharia e equipes que operam serviços críticos. Minha experiência vai de hospedagem 24×7 a plataformas globais para desenvolvedores e infraestrutura de fintech regulada.
 
-Meu foco é **confiabilidade mensurável, entregas seguras, autosserviço para desenvolvedores e resposta a incidentes baseada em evidências**. Continuo gostando de investigar os sistemas por trás das decisões de arquitetura.
+## Resultados e escala
 
-## Experiência e resultados em destaque
-
-- **Ambev / AB InBev — Principal SRE / Platform Engineer (2020–2023):** Liderança de uma **plataforma interna baseada em Backstage** adotada por **mais de 250 squads** na América Latina e Europa, com **mais de 800 serviços** catalogados. Atuação em Kubernetes multicloud (**AKS / EKS / GKE**), Azure DevOps, padrões de infraestrutura, Golden Paths e autosserviço.
-- **Caju Benefícios — SRE Tech Lead / DevOps & Platform Engineer (2023–2026):** Liderança de melhorias de SRE e plataforma para **12 squads, cerca de 60 microsserviços e 5 clusters EKS**. Redução do MTTR de **120 para 40 minutos (~67%)**, aumento de disponibilidade de serviços críticos de **99,5% para 99,9%** e redução de custos AWS em **~28%**. Experiência com **requisitos PCI-DSS**, observabilidade, GitOps e controles de segurança em fintech regulada.
-- **Endurance International Group / HostGator — Senior DevOps & Infrastructure Engineer (2013–2020):** Modernização de infraestrutura de hospedagem em alta escala, incluindo migração de on-premises para AWS. Automação que reduziu o provisionamento de ambientes **de horas para minutos** e fortalecimento de operações 24×7.
-
-Esses resultados são da experiência profissional e **não** significam que os repositórios pessoais abaixo tenham sido implantados nos ambientes de produção dessas empresas.
-
-## Projeto em destaque: [AI SRE RCA](https://github.com/marcocristofolini/ai-sre-rca)
-
-Workspace de **investigação de incidentes baseado em evidências** para Kubernetes e sistemas distribuídos, com interface Next.js, orquestração FastAPI, PostgreSQL e coleta de telemetria com escopo controlado de Kubernetes, Prometheus, Loki e Tempo.
-
-- **RCA determinística:** identifica mecanismos de falha verificados com evidências rastreáveis; dados ausentes ou insuficientes levam a resultado inconclusivo. O Copilot opcional explica os achados, mas **não altera os vereditos de causa raiz**.
-- **Investigação segura:** coleta somente leitura, seleção explícita de workload e intervalo de tempo, isolamento entre tenants, histórico persistido e progresso via SSE com replay e fallback para polling. A remediação exige aprovação em fluxo separado.
-- **Validação documentada:** benchmarks sintéticos e cenários locais controlados em Kind, com [relatórios de testes](https://github.com/marcocristofolini/ai-sre-rca#local-validation-recorded-results), [capturas da aplicação](https://github.com/marcocristofolini/ai-sre-rca#application-screenshots--running-local-demo) e [arquitetura](https://github.com/marcocristofolini/ai-sre-rca#architecture-and-safety). **Release candidate em desenvolvimento; não há alegação de implantação em produção.**
-
-## Projetos de engenharia selecionados
-
-Os repositórios abaixo são **implementações de referência, laboratórios ou protótipos públicos**. Cada projeto documenta seu escopo e estágio de validação.
-
-| Projeto | Foco e evidências |
+| Escopo | Resultado documentado |
 | --- | --- |
-| **[AI SRE RCA](https://github.com/marcocristofolini/ai-sre-rca)** | Destaque: RCA determinística com evidências, Copilot opcional e investigações controladas somente leitura; validação local documentada acima. |
-| [Kubernetes Incident Evidence Collector](https://github.com/marcocristofolini/kubernetes-incident-evidence-collector) | CLI **Python** somente leitura para coleta de evidências de incidentes; protótipo revisado com testes mockados. **Validação em cluster real pendente.** |
-| [Kubernetes RCA Engine](https://github.com/marcocristofolini/kubernetes-rca-engine) | Análise determinística de incidentes em **Go**, orientada a evidências, para OOMKilled, evictions e CrashLoopBackOff; implementação inicial **v0.1**. |
-| [Production Readiness Framework](https://github.com/marcocristofolini/production-readiness-framework) | Revisões operacionais com **SLOs, modos de falha, proteção contra sobrecarga, recuperação e resposta a incidentes**. |
-| [Platform Engineering Reference](https://github.com/marcocristofolini/platform-engineering-reference) | Exemplos arquiteturais com **Backstage, Kubernetes e Argo CD** para GitOps e autosserviço. |
-| [Observability Stack](https://github.com/marcocristofolini/observability-stack) | Stack de referência local com **OpenTelemetry, Prometheus, Loki, Tempo e Grafana**. |
-| [Terraform Cloud Platform](https://github.com/marcocristofolini/terraform-cloud-platform) | Padrões modulares com **Terraform / OpenTofu** e exemplo intencionalmente enxuto de rede AWS. |
-| [Kubernetes SRE Playbook](https://github.com/marcocristofolini/kubernetes-sre-playbook) | Cenários reproduzíveis de falha, sinais de investigação e runbooks Kubernetes. |
+| **Adoção de plataforma — Ambev / AB InBev** | Plataforma interna baseada em Backstage adotada por **250+ squads**, com **800+ serviços** catalogados na América Latina e Europa |
+| **Experiência do desenvolvedor — Ambev / AB InBev** | Onboarding de novos serviços reduzido de **~2 semanas para menos de 1 dia** com templates reutilizáveis e autosserviço |
+| **Recuperação de incidentes — Caju** | MTTR reduzido de **~120 para ~40 minutos (−67%)**; disponibilidade dos serviços críticos de **99,5% para 99,9%** |
+| **Entrega de software — Caju** | Lead time de mudanças reduzido de **~2 semanas para menos de 2 dias** com GitOps e entrega progressiva |
+| **Eficiência em cloud — Caju** | Custos AWS reduzidos em **~28% (~R$ 45 mil/mês)** com rightsizing, autoscaling e limpeza de recursos |
 
-## Competências principais
+*Os resultados acima vêm das experiências profissionais, não dos projetos pessoais publicados no GitHub.*
 
-| Área | Tecnologias e práticas |
+## Liderança técnica na prática
+
+### Ambev / AB InBev · Principal Site Reliability Engineer / Platform Engineer (2020–2023)
+
+- Liderei o desenvolvimento e a adoção de uma **plataforma interna para desenvolvedores com Backstage**, Golden Paths, catálogo de serviços, documentação e templates de autosserviço, com atuação em equipes da América Latina e Europa.
+- Projetei e operei componentes de plataforma Kubernetes multicloud com **Azure AKS, AWS EKS e GCP GKE**. Padronizei infraestrutura como código e CI/CD com **Terraform / OpenTofu, Azure DevOps e GitOps**.
+- Trabalhei com equipes de segurança, arquitetura corporativa e FinOps para transformar requisitos em padrões de plataforma e **mais de 20 RFCs/ADRs adotados**. Fiz mentoria de engenheiros e lideranças técnicas em diferentes regiões.
+
+### Caju Benefícios · SRE Tech Lead / DevOps & Platform Engineer (2023–2026)
+
+- Atuei com **12 squads, cerca de 60 microsserviços e cinco clusters EKS** em uma fintech regulada, combinando trabalho técnico em produção e liderança.
+- Estruturei **SLIs/SLOs, error budgets, observabilidade, runbooks, postmortems e plantões**. O tempo de detecção de incidentes caiu de **~30 para ~2 minutos** e os incidentes recorrentes diminuíram **~40%**.
+- Aumentei a segurança das entregas com **Argo CD, Flux, Argo Rollouts e Flagger**, além de ampliar o autosserviço com padrões de infraestrutura baseados em Terraform.
+- Trabalhei com **requisitos PCI-DSS**, controles de identidade e acesso, secrets e segurança de infraestrutura na operação. Isso **não** significa que conduzi auditorias ou certificações PCI.
+
+### Endurance International Group / HostGator · Senior DevOps & Infrastructure Engineer (2013–2020)
+
+- Participei da modernização de sistemas de hospedagem de alto tráfego, com operação 24×7; liderei a migração de **~80% dos workloads de produção** de infraestrutura local para AWS.
+- Automatizei o provisionamento e padronizei infraestrutura Linux, melhorando a consistência operacional de **mais de 1.000 servidores**.
+
+## Projeto de engenharia em destaque: [AI SRE RCA](https://github.com/marcocristofolini/ai-sre-rca)
+
+**Sistema de investigação de incidentes baseado em evidências verificáveis para Kubernetes e aplicações distribuídas.** Desenvolvi o projeto para explorar uma questão prática: como acelerar investigações com IA **sem permitir que um modelo invente causas raiz ou ultrapasse limites de segurança**?
+
+| Decisão arquitetural | Implementação |
 | --- | --- |
-| **SRE e resiliência** | SLIs / SLOs, error budgets, resposta a incidentes, postmortems, production readiness, load shedding, graceful degradation, disaster recovery, capacity planning |
-| **Platform Engineering** | Kubernetes, EKS / AKS / GKE, Backstage, Helm, Karpenter, KEDA, plataformas internas e Golden Paths |
-| **Cloud e infraestrutura** | AWS, Azure / AKS, Google Cloud, Terraform, Bicep, OpenTofu, Terragrunt, Pulumi (Go), Crossplane |
-| **Entrega e GitOps** | Argo CD, Flux, Argo Rollouts, GitHub Actions, CI/CD, canary e blue-green |
-| **Observabilidade** | OpenTelemetry, Prometheus, Grafana, Loki, Tempo, Datadog, New Relic, tracing e alertas acionáveis |
-| **Segurança e identidade** | Operação sob requisitos PCI-DSS, IAM, RBAC, Keycloak, Vault, OPA / Rego, Gatekeeper, Kyverno, controles DevSecOps |
-| **Desenvolvimento e operações** | Go, Python, Bash, TypeScript, Linux, Kafka, Redis, PostgreSQL, otimização de custos e capacidade |
+| **Manter o diagnóstico verificável** | RCA determinística vincula causas confirmadas a evidências de Kubernetes e telemetria com integridade verificada; evidências insuficientes resultam em diagnóstico inconclusivo |
+| **IA como apoio, não autoridade** | Copilot opcional explica achados e cita evidências; sua resposta não pode alterar vereditos persistidos nem iniciar remediação |
+| **Limitar a investigação** | Escopos autorizados de tenant/cluster/workload e tempo, coleta somente leitura, limites de consulta, jobs persistidos e progresso SSE com replay |
+| **Separar análise de ação** | A remediação fica atrás de permissões próprias, políticas e aprovação humana explícita |
+| **Testar modos de falha** | Benchmarks sintéticos e cenários controlados em Kind, incluindo múltiplas causas independentes e respostas inconclusivas corretas |
 
-## Certificações
+<a href="https://github.com/marcocristofolini/ai-sre-rca/blob/main/docs/images/app-multicausal-kind-running.png"><img src="https://raw.githubusercontent.com/marcocristofolini/ai-sre-rca/main/docs/images/app-multicausal-kind-running.png" width="700" alt="Interface AI SRE RCA mostrando causas independentes e evidências vinculadas em incidente controlado no Kind" /></a>
 
-- **Certified Kubernetes Administrator (CKA)** — CNCF, 2023
-- **AWS Certified Solutions Architect – Associate** — AWS, 2023
-- **Istio Certified Associate (ICA)** — CNCF, 2022
-- **HashiCorp Certified: Terraform Associate** — HashiCorp, 2022
-- **Site Reliability Engineering Nanodegree** — Udacity, 2017
+*Imagem: investigação local controlada em Kind, exibida como resultado somente leitura; não é um incidente de produção. O projeto é um release candidate em desenvolvimento, sem alegação de implantação em produção.*
 
-*As certificações estão listadas conforme o currículo; não estou afirmando o status atual de renovação ou validade.*
+[Arquitetura e segurança](https://github.com/marcocristofolini/ai-sre-rca#architecture-and-safety) · [Capturas da aplicação](https://github.com/marcocristofolini/ai-sre-rca#application-screenshots--running-local-demo) · [Relatórios de validação](https://github.com/marcocristofolini/ai-sre-rca#local-validation-recorded-results)
 
-## Princípios de engenharia
+## Outros projetos públicos
 
-```mermaid
-flowchart LR
-    P[Plataforma e entrega] --> R[Readiness de produção]
-    R --> O[Observabilidade desde o início]
-    O --> S[Operações orientadas por SLOs]
-    S --> I[Investigação com evidências]
-    I --> L[Aprendizado e automação]
-    L --> P
-```
+- **[Production Readiness Framework](https://github.com/marcocristofolini/production-readiness-framework):** revisão de serviços com SLOs, sobrecarga, modos de falha e recuperação.
+- **[Platform Engineering Reference](https://github.com/marcocristofolini/platform-engineering-reference):** padrões Backstage, Kubernetes e Argo CD para autosserviço.
+- **[Kubernetes Incident Evidence Collector](https://github.com/marcocristofolini/kubernetes-incident-evidence-collector):** coletor Python somente leitura; protótipo testado com mocks, validação em cluster real pendente.
+- **[Observability Stack](https://github.com/marcocristofolini/observability-stack):** ambiente local com OpenTelemetry, Prometheus, Loki, Tempo e Grafana.
+- **[Terraform Cloud Platform](https://github.com/marcocristofolini/terraform-cloud-platform):** exemplos modulares de infraestrutura Terraform/OpenTofu.
 
-Valorizo **evidências verificáveis em vez de conclusões opacas**, operações seguras por padrão, entregas incrementais e sistemas que os times consigam operar com autonomia.
+*São implementações de referência, protótipos e laboratórios; cada repositório documenta suas limitações.*
 
-**Idiomas:** Português (nativo) · Inglês (avançado profissional) · Espanhol (proficiência profissional limitada)
+## Como abordo o desenho de sistemas
 
-**Contato:** [LinkedIn](https://www.linkedin.com/in/marcocristofolini/) · [marcocristofolini.dev](https://marcocristofolini.dev)
+- **Confiabilidade é prática operacional:** definir SLIs/SLOs, observar mudanças e preparar a recuperação antes dos incidentes.
+- **Plataformas precisam ser adotadas:** tornar o caminho padrão mais seguro, documentado e simples do que construir infraestrutura isolada.
+- **Segurança começa no desenho:** isolamento, privilégio mínimo, alterações revisáveis e limites explícitos de operação.
+- **Evidência antes de convicção:** separar fatos de hipóteses; um diagnóstico inconclusivo é melhor do que uma causa inventada.
+
+**Tecnologias principais:** AWS · Azure / AKS · GCP · Kubernetes · Terraform / OpenTofu / Bicep · Backstage · Azure DevOps · Argo CD · Python / Go · OpenTelemetry · Prometheus / Grafana · Datadog · operação sob requisitos PCI-DSS.
+
+**Certificações obtidas:** CKA (2023) · AWS Solutions Architect – Associate (2023) · Istio Certified Associate (2022) · Terraform Associate (2022). *Não afirmo validade ou renovação atual.*
+
+**Idiomas:** Português (nativo) · Inglês (avançado profissional) · Espanhol (proficiência profissional limitada).
+
+**Contato:** [LinkedIn](https://www.linkedin.com/in/marcocristofolini/) · [Portfólio](https://marcocristofolini.dev)
