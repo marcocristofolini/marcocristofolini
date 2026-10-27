@@ -12,30 +12,30 @@ Sou **Principal SRE e ex-SRE Tech Lead**, com **mais de 13 anos** em infraestrut
 
 | Escopo | Resultado documentado |
 | --- | --- |
-| **Adoção de plataforma — Ambev / AB InBev** | Plataforma interna baseada em Backstage adotada por **250+ squads**, com **800+ serviços** catalogados na América Latina e Europa |
-| **Experiência do desenvolvedor — Ambev / AB InBev** | Onboarding de novos serviços reduzido de **~2 semanas para menos de 1 dia** com templates reutilizáveis e autosserviço |
-| **Recuperação de incidentes — Caju** | MTTR reduzido de **~120 para ~40 minutos (−67%)**; disponibilidade dos serviços críticos de **99,5% para 99,9%** |
-| **Entrega de software — Caju** | Lead time de mudanças reduzido de **~2 semanas para menos de 2 dias** com GitOps e entrega progressiva |
-| **Eficiência em cloud — Caju** | Custos AWS reduzidos em **~28% (~R$ 45 mil/mês)** com rightsizing, autoscaling e limpeza de recursos |
+| **Adoção de plataforma - Ambev / AB InBev** | Plataforma interna baseada em Backstage adotada por **250+ squads**, com **800+ serviços** catalogados na América Latina e Europa |
+| **Experiência do desenvolvedor - Ambev / AB InBev** | Onboarding de novos serviços reduzido de **~2 semanas para menos de 1 dia** com templates reutilizáveis e autosserviço |
+| **Recuperação de incidentes - Caju** | MTTR reduzido de **~120 para ~40 minutos (-67%)**; disponibilidade dos serviços críticos de **99,5% para 99,9%** |
+| **Entrega de software - Caju** | Lead time de mudanças reduzido de **~2 semanas para menos de 2 dias** com GitOps e entrega progressiva |
+| **Eficiência em cloud - Caju** | Custos AWS reduzidos em **~28% (~R$ 45 mil/mês)** com rightsizing, autoscaling e limpeza de recursos |
 
 *Os resultados acima vêm das experiências profissionais, não dos projetos pessoais publicados no GitHub.*
 
 ## Liderança técnica na prática
 
-### Ambev / AB InBev · Principal Site Reliability Engineer / Platform Engineer (2020–2023)
+### Ambev / AB InBev · Principal Site Reliability Engineer / Platform Engineer (2020-2023)
 
 - Liderei o desenvolvimento e a adoção de uma **plataforma interna para desenvolvedores com Backstage**, Golden Paths, catálogo de serviços, documentação e templates de autosserviço, com atuação em equipes da América Latina e Europa.
 - Projetei e operei componentes de plataforma Kubernetes multicloud com **Azure AKS, AWS EKS e GCP GKE**. Padronizei infraestrutura como código e CI/CD com **Terraform / OpenTofu, Azure DevOps e GitOps**.
 - Trabalhei com equipes de segurança, arquitetura corporativa e FinOps para transformar requisitos em padrões de plataforma e **mais de 20 RFCs/ADRs adotados**. Fiz mentoria de engenheiros e lideranças técnicas em diferentes regiões.
 
-### Caju Benefícios · SRE Tech Lead / DevOps & Platform Engineer (2023–2026)
+### Caju Benefícios · SRE Tech Lead / DevOps & Platform Engineer (2023-2026)
 
 - Atuei com **12 squads, cerca de 60 microsserviços e cinco clusters EKS** em uma fintech regulada, combinando trabalho técnico em produção e liderança.
 - Estruturei **SLIs/SLOs, error budgets, observabilidade, runbooks, postmortems e plantões**. O tempo de detecção de incidentes caiu de **~30 para ~2 minutos** e os incidentes recorrentes diminuíram **~40%**.
 - Aumentei a segurança das entregas com **Argo CD, Flux, Argo Rollouts e Flagger**, além de ampliar o autosserviço com padrões de infraestrutura baseados em Terraform.
 - Trabalhei com **requisitos PCI-DSS**, controles de identidade e acesso, secrets e segurança de infraestrutura na operação. Isso **não** significa que conduzi auditorias ou certificações PCI.
 
-### Endurance International Group / HostGator · Senior DevOps & Infrastructure Engineer (2013–2020)
+### Endurance International Group / HostGator · Senior DevOps & Infrastructure Engineer (2013-2020)
 
 - Participei da modernização de sistemas de hospedagem de alto tráfego, com operação 24×7; liderei a migração de **~80% dos workloads de produção** de infraestrutura local para AWS.
 - Automatizei o provisionamento e padronizei infraestrutura Linux, melhorando a consistência operacional de **mais de 1.000 servidores**.
@@ -77,7 +77,7 @@ Sou **Principal SRE e ex-SRE Tech Lead**, com **mais de 13 anos** em infraestrut
 
 **Tecnologias principais:** AWS · Azure / AKS · GCP · Kubernetes · Terraform / OpenTofu / Bicep · Backstage · Azure DevOps · Argo CD · Python / Go · OpenTelemetry · Prometheus / Grafana · Datadog · operação sob requisitos PCI-DSS.
 
-**Certificações obtidas:** CKA (2023) · AWS Solutions Architect – Associate (2023) · Istio Certified Associate (2022) · Terraform Associate (2022). *Não afirmo validade ou renovação atual.*
+**Certificações obtidas:** CKA (2023) · AWS Solutions Architect - Associate (2023) · Istio Certified Associate (2022) · Terraform Associate (2022). *Não afirmo validade ou renovação atual.*
 
 **Idiomas:** Português (nativo) · Inglês (avançado profissional) · Espanhol (proficiência profissional limitada).
 
